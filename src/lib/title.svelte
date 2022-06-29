@@ -1,5 +1,5 @@
 <script>
-    let title = 'the best title'
+    let title = 'The Test Automation Biome'
 </script>
 
 <div class="title">
@@ -8,7 +8,7 @@
 
 <style>
     .title{
-        color: aqua;
-        display: flex;
+        color: crimson;
+        text-align: center;
     }
 </style>
