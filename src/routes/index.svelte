@@ -2,12 +2,12 @@
   // @ts-ignore
   export async function load({ fetch }) {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
-    const guides = await res.json();
+    const userNames = await res.json();
 
     if (res.ok) {
       return {
         props: {
-          guides,
+            userNames,
         },
       };
     }
@@ -19,18 +19,21 @@
 </script>
 
 <script>
+import LayoutGuides from "./guides/__layout-guides.svelte";
+
+
   
     export /**
 * @type {any}
 */
-     let guides
+     let userNames
 </script>
 
-<div class="guides">
+<div class="userNames">
     <ul>
-        {#each guides as guide}
+        {#each userNames as userName}
         <li>
-            <a href="/">{guide.name}</a>
+            <a href={`/guides/${userName.id}`}>{userName.name}</a>
         </li>
 
         {/each}
