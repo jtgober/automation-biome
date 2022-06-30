@@ -1,5 +1,8 @@
+
 <body>
-  <section class="dark">
+    
+  <section class="bg-emerald-400">
+    
     <h1>Nice Curves</h1>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
@@ -13,7 +16,7 @@
         </svg>
     </div>
   </section>
-  <section class="blue">
+  <section class="bg-emerald-800">
     <h1>Nice Curves</h1>
     <p>
       Beatae cum eum, accusamus consectetur necessitatibus dignissimos ex minus
@@ -32,54 +35,10 @@
       officia?
     </p>
   </section>
-  <section>
-    <h1>Nice Curves</h1>
-    <p>
-      Quia odio enim, accusantium vel exercitationem asperiores maxime eveniet
-      esse deserunt molestias quod fugit eaque non quo totam dolores dolore
-      quaerat tempore impedit facere eos et est atque! Fugit, laboriosam!
-    </p>
-  </section>
-  <section>
-    <h1>Nice Curves</h1>
-    <p>
-      Dignissimos, ea doloremque! Blanditiis dolorem provident porro dolore.
-      Reprehenderit a ipsa incidunt illo non tempora perspiciatis eligendi eum
-      sunt sequi reiciendis nihil saepe, eos impedit quas rerum! Reiciendis,
-      iure veritatis.
-    </p>
-  </section>
-  <section>
-    <h1>Nice Curves</h1>
-    <p>
-      Voluptatibus accusantium eum, minus ipsa velit amet sequi ab quo
-      voluptates aliquam illo officia molestiae quibusdam nulla facere illum vel
-      quod in blanditiis. Vel corrupti iste autem laudantium, dolor omnis?
-    </p>
-  </section>
-  <section>
-    <h1>Nice Curves</h1>
-    <p>
-      Soluta sed hic itaque dolore, voluptate ducimus, excepturi vero iste eos
-      commodi explicabo veniam molestias recusandae voluptates. Esse architecto
-      facere cumque, impedit repellendus nisi natus qui magni molestias facilis
-      sapiente?
-    </p>
-  </section>
-  <section>
-    <h1>Nice Curves</h1>
-    <p>
-      Architecto dicta iste in. Minus beatae fugit cum provident ipsum tempore.
-      Distinctio ullam eum hic tempora rem tenetur possimus deserunt impedit at
-      quas sunt esse accusantium, consequatur, qui, dicta corrupti!
-    </p>
-  </section>
+ 
 </body>
 
 <style>
-    .blue{
-        background: #4A90E2;
-    }
   body {
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -113,7 +72,7 @@
 }
 
 .wave .shape-fill {
-    fill: #4A90E2;
+    fill: #065f46;
 }
  
 </style>
