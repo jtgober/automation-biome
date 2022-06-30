@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import Title from "$lib/title.svelte";
   import "../styles/global.css";
 </script>
@@ -12,12 +12,12 @@
 </div>
 <header>
   <Title />
-</header>
+</header> -->
 
 <main>
   <slot />
 </main>
-
+<!-- 
 <footer>
   <p>This is a footer tag. Come add something in here</p>
 </footer>
@@ -34,4 +34,4 @@
   footer {
     text-align: center;
   }
-</style>
+</style> -->
