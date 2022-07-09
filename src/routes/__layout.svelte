@@ -12,7 +12,7 @@
 
 <Footer />
 
-<style>
+<!-- <style>
   :root {
     --bg-color: #ffffff;
     --text-color: #000000;
@@ -27,4 +27,4 @@
     --bg-color: #000000;
     --text-color: #ffffff;
   }
-</style>
+</style> -->
